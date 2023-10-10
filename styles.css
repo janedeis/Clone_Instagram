@@ -1,0 +1,116 @@
+body{
+    background-color:#fafafa;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:sans-serif;
+}
+
+/*styles the to tag p*/
+#developer{
+    margin-top:10px;
+    /* border:1px solid #000; */
+    font-size:12px;
+    font-weight:bold;
+    /* display:inline; */
+
+    /*efeito de maquina par o p*/
+    font-family:monospace;
+    border-right:3px none; /*solid */
+    width:46ch;
+    white-space:nowrap;
+    overflow:hidden;
+    animation: typing 4s steps(30), 
+    blinking 0.5s infinite step-end alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing{
+    from{
+        width:0;
+    }
+}
+
+@keyframes blinking{
+    50%{
+        border-color: transparent;
+    }
+}
+
+label{
+    font-size:12px;
+    
+}
+
+footer{
+    border-top:10px;
+    border-left:0;
+        
+    /* border-radius:1px; */
+    /* border:1px solid #aaa7a7; */
+}
+/*
+p.hove{
+    color:blue;
+}*/
+
+.img-celular{
+    width:450px;
+}
+
+.conteiner{
+    border-radius:5px;
+    border:1px solid #aaa7a7;
+    display:flex;
+    flex-direction: column;
+    width:300px;
+    padding:40px 40px 10px 40px;
+}
+
+input{
+    height:36px;
+    border:1px solid #d3d3d3;
+    border-radius:3px;
+    margin-top:10px;
+}
+
+button{
+    background-color: #0095f6;
+    border-radius:3px;
+    margin-top:20px;
+    color:#fff;
+    cursor:pointer;
+}
+
+.facebook{
+    /* border:1px solid #000; */
+    margin-top:20px;
+    text-align:center;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:bold;
+    
+}
+
+.esqueceu-senha{
+    /* border:1px solid #000; */    
+    margin-top:20px;
+    margin-bottom:10px;
+    cursor:pointer;
+    font-size:12px;
+    cursor:pointer;
+    text-align:center;
+}
+
+.imagens{
+    position:relative;    
+}
+.img-insta{
+    height:520px;
+    left:153px;
+    top:26px;
+    position:absolute;
+    transition:2s ease-in-out;
+}
